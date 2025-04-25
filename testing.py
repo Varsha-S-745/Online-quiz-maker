@@ -1,3 +1,13 @@
+""" 
+This script checks the functionality of a given Online Quiz Maker web app by mimicking a user's behavior:
+Test Step              What It Does
+Signup Test            Navigates to the signup page and signs up with test details.
+Login Test             Logs in with those credentials.
+Create Exam Test       Pops up the "Create Exam" page and creates a new quiz named "Python Basics Quiz".
+Attempt Exam Test      Navigate to the exam, chooses an answer, and submits the test.
+Grade Exam Test        Goes to result page and verifies whether the score is shown."""
+
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
