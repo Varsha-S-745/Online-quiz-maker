@@ -29,3 +29,5 @@ Python
 PyCharm 
 
 GitHub Desktop
+
+Django
